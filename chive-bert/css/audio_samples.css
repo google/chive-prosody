@@ -5,8 +5,17 @@ body {
   height: 100%;
 }
 
+h1 {
+  margin: 0px 0px 20px 0px;
+}
+
 h2 {
   margin: 50px 0px 20px 0px;
+}
+
+#home_link {
+  text-align: left;
+  margin: 0;
 }
 
 table, th, td {
@@ -40,7 +49,7 @@ td.table_notes {
 
 .main_content {
   width: 1250px;
-  background-color: #F0F0F0;
+  background-color: #F2F2F2;
   padding: 20px;
   margin: 0;
 }

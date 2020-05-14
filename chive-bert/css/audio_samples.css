@@ -1,6 +1,6 @@
 body {
   font-family: verdana;
-  background-color: #D0D0D0;
+  background-color: #FFFFFF;
   margin: 0;
   height: 100%;
 }
@@ -18,6 +18,10 @@ h2 {
   margin: 0;
 }
 
+#top_comment {
+    width: 90%;
+}
+
 table, th, td {
     border-collapse:collapse;
     border:0px;
@@ -32,15 +36,11 @@ table {
 }
 
 th.header_1 {
-    background-color: #3369a0;
+    background-color: #1baaf4;
 }
 
 th.header_2 {
-    background-color: #e67300;
-}
-
-th.header_3 {
-    background-color: #e6A000;
+    background-color: #f4be1b;
 }
 
 td.table_notes {
@@ -48,7 +48,7 @@ td.table_notes {
 }
 
 .main_content {
-  width: 1250px;
+  width: 1000px;
   background-color: #F2F2F2;
   padding: 20px;
   margin: 0;

@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-  margin: 50px 0px 20px 0px;
+  margin: 30px 0px 20px 0px;
 }
 
 #home_link {
@@ -20,6 +20,12 @@ h2 {
 
 #top_comment {
     width: 90%;
+}
+
+#bibtex {
+    text-align: left;
+    background: #FAFAFA;
+    padding: 2px 2px 2px 16px;
 }
 
 table, th, td {

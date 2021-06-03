@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/audio_samples.css">
+
+    <title>'Hard lines' dataset used in Improving Prosody of RNN-based English Text-To-Speech Synthesis Incorporating a BERT model</title>
+  </head>
+  <body>
+    <center>
+      <div class="main_content">
+        <div id="home_link">
+          <a href="../index.html" style="text-align: left;">&lt;&lt; home</a>
+        </div>
+        <h1>'Hard lines' dataset used for evaluating CHiVE-BERT</h1>
+        <div id="top_comment">
+          This page presents the 'hard lines' dataset that was used for evaluation in <a href="http://www.interspeech2020.org/uploadfile/pdf/Thu-2-9-6.pdf" target="_blank">Improving Prosody of RNN-based English Text-To-Speech Synthesis by Incorporating a BERT model</a>, T. Kenter, M. Sharma and R. A. J. Clark, INTERSPEECH 2020.
+          <p>
+            If you use the dataset in your work, please cite the paper:
+            <div id="bibtex">
+              <pre>@inproceedings{kenter2020improvingprosodywithbert,
+&nbsp;&nbsp;title = {Improving the Prosody of RNN-based English Text-To-Speech Synthesis by Incorporating a BERT Model},
+&nbsp;&nbsp;author = {Tom Kenter and Manish Sharma and Rob Clark},
+&nbsp;&nbsp;booktitle = {INTERSPEECH 2020},
+&nbsp;&nbsp;pages = {4412--4416},
+&nbsp;&nbsp;year = {2020},
+}</pre>
+            </div>
+            <p>
+              The dataset is a plain text file with one sentence per line. It can be viewed and downloaded <a href="./chive_bert_hard_lines_dataset.txt" target="_blank">here</a>.
+              <p>
+            It is composed of so-called 'hard lines' that typically contain compound nouns, compound adjectives or long proper names. These are phrases some TTS systems have trouble rendering correctly. The dataset was constructed from scratch to cover this kind of examples and to get a better understanding of how or models were performing on these lines, which do not not typically occur very often in standard datasets.
+          <p>
+            We found that using a targeted dataset like this helped in developing our models. By making this dataset available, we hope to support the use of targeted and openly available test sets, and to make comparison between models more consistent and straightforward.
+          <p>
+        </div>
+        <p>
+          &nbsp;
+          <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      </div>
+    </center>
+  </body>
+</html>

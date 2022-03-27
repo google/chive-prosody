@@ -1,0 +1,77 @@
+body {
+  font-family: verdana;
+  background-color: #FFFFFF;
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  margin: 0px 0px 20px 0px;
+}
+
+h2 {
+  margin: 30px 0px 20px 0px;
+}
+
+#home_link {
+  text-align: left;
+  margin: 0;
+}
+
+#top_comment {
+    width: 90%;
+}
+
+#bibtex {
+    text-align: left;
+    background: #FAFAFA;
+    padding: 2px 2px 2px 16px;
+}
+
+table, th, td {
+    border-collapse:collapse;
+    border:0px;
+    text-align:center;
+    vertical-align:top;
+    padding:10px;
+}
+
+table {
+    background-color: #FFFFFF;
+    margin: 10px 0px 10px 0px;
+}
+
+th.header_chive {
+    background-color: lightgreen;
+}
+
+th.header_taco {
+    background-color: lightseagreen;
+}
+
+th.header_us {
+    background-color: palegreen;
+}
+
+td.table_notes {
+  padding: 0px 5px 20px 5px;
+}
+
+.main_content {
+  width: 1000px;
+  background-color: #F2F2F2;
+  padding: 20px;
+  margin: 0;
+}
+
+.comment {
+    margin: 20px 0px 20px 0px;
+    text-align: left
+}
+
+.figure_caption {
+    margin: 10px 0px 0px 0px;
+    width: 1100px;
+    text-align: center;
+    font-style: italic;
+}
